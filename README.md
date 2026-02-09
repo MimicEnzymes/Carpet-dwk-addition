@@ -5,7 +5,7 @@
 A Carpet Mod extension that provides control over fluid mechanics in Minecraft.
 Developed by **Mimic_enzymes**.
 
-## 📖 Features (功能)
+## Features (功能)
 
 This mod adds new rules to `/carpet` to control fluid behaviors:
 
@@ -21,11 +21,11 @@ This mod adds new rules to `/carpet` to control fluid behaviors:
 - **Use case**: Disables cobblestone generators.
 - **Command**: `/carpet preventFluidInteraction true`
 
-## 📦 Installation
+## Installation
 
 1. Install Fabric Loader.
 2. Install Carpet Mod.
 3. Drop the jar into your mods folder.
 
-## 📄 License
+## License
 MIT License
