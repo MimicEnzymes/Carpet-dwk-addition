@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.dwk.addition.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [ "FlowableFluidMixin", "FluidBlockMixin", "LavaFluidMixin" ],
+  "injectors": { "defaultRequire": 1 }
+}

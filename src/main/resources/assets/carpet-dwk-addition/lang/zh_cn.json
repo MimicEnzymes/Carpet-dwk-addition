@@ -1,0 +1,8 @@
+{
+  "carpet.rule.stopFluidFlow.name": "停止流体流动",
+  "carpet.rule.stopFluidFlow.desc": "阻止水和岩浆向周围扩散。",
+  "carpet.rule.stopFluidFlow.extra": "可以让你的建筑保持整洁。",
+  "carpet.rule.preventFluidInteraction.name": "阻止流体交互",
+  "carpet.rule.preventFluidInteraction.desc": "阻止流体与方块发生反应（如生成石头）。",
+  "carpet.rule.preventFluidInteraction.extra": "刷石机将失效。"
+}

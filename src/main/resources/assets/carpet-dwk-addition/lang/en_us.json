@@ -1,0 +1,8 @@
+{
+  "carpet.rule.stopFluidFlow.name": "Stop Fluid Flow",
+  "carpet.rule.stopFluidFlow.desc": "Prevents water and lava from spreading to new blocks.",
+  "carpet.rule.stopFluidFlow.extra": "Useful for keeping builds clean.",
+  "carpet.rule.preventFluidInteraction.name": "Prevent Fluid Interaction",
+  "carpet.rule.preventFluidInteraction.desc": "Prevents fluids from reacting with world.",
+  "carpet.rule.preventFluidInteraction.extra": "Prevents cobblestone generators from working."
+}

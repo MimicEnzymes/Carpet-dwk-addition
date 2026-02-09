@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://bmclapi2.bangbang93.com/maven' }
+        gradlePluginPortal()
+        maven { url 'https://maven.fabricmc.net/' }
+    }
+}
+rootProject.name = 'carpet-dwk-addition'
