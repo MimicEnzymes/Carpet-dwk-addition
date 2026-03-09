@@ -2,11 +2,11 @@
 
 ![Icon](src/main/resources/assets/dwk/icon.png)
 
-A Carpet Mod extension that provides control over fluid mechanics in Minecraft.
+A Carpet Mod extension that provides control over fluid mechanics and rail behaviors in Minecraft.
 
 ## 📖 Features (功能)
 
-This mod adds new rules to `/carpet` to control fluid behaviors:
+This mod adds new rules to `/carpet` to control specific game behaviors:
 
 ### `stopFluidFlow`
 - **Description**: Prevents water and lava from spreading to new blocks.
@@ -19,6 +19,12 @@ This mod adds new rules to `/carpet` to control fluid behaviors:
 - **Default**: `false`
 - **Use case**: Prevents accidental stone generation from jamming flying machines and redstone contraptions.
 - **Command**: `/carpet preventFluidInteraction true`
+
+### `preventRailAutoConnection`
+- **Description**: Prevents rails from changing shape or connecting when a new rail is placed nearby.
+- **Default**: `false`
+- **Use case**: Useful for building dense parallel railways without them merging.
+- **Command**: `/carpet preventRailAutoConnection true`
 
 ## 📦 Installation (安装)
 
