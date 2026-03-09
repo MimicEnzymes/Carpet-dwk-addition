@@ -1,7 +1,7 @@
 package com.dwk.addition.mixin;
 
 import com.dwk.addition.DwkSettings;
-import net.minecraft.block.BlockState; // 【新增】必须引入 BlockState
+import net.minecraft.block.BlockState;
 import net.minecraft.fluid.FlowableFluid;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.server.world.ServerWorld;
