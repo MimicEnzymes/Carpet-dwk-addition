@@ -4,5 +4,8 @@
   "carpet.rule.stopFluidFlow.extra": "Useful for keeping builds clean.",
   "carpet.rule.preventFluidInteraction.name": "Prevent Fluid Interaction",
   "carpet.rule.preventFluidInteraction.desc": "Prevents fluids from reacting with world.",
-  "carpet.rule.preventFluidInteraction.extra": "Prevents cobblestone generators from working."
+  "carpet.rule.preventFluidInteraction.extra": "Prevents accidental stone generation from jamming flying machines.",
+  "carpet.rule.preventRailAutoConnection.name": "Prevent Rail Auto Connection",
+  "carpet.rule.preventRailAutoConnection.desc": "Prevents rails from changing shape when a new rail is placed nearby.",
+  "carpet.rule.preventRailAutoConnection.extra": "Useful for building dense parallel railways without them merging."
 }

@@ -7,4 +7,7 @@ public class DwkSettings {
     public static boolean stopFluidFlow = false;
     @Rule(categories = { "dwk", CREATIVE, FEATURE })
     public static boolean preventFluidInteraction = false;
+    
+    @Rule(categories = { "dwk", CREATIVE, FEATURE })
+    public static boolean preventRailAutoConnection = false;
 }

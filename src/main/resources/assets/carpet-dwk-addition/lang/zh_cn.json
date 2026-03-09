@@ -4,5 +4,8 @@
   "carpet.rule.stopFluidFlow.extra": "可以让你的建筑保持整洁。",
   "carpet.rule.preventFluidInteraction.name": "阻止流体交互",
   "carpet.rule.preventFluidInteraction.desc": "阻止流体与方块发生反应（如生成石头）。",
-  "carpet.rule.preventFluidInteraction.extra": "刷石机将失效。"
+  "carpet.rule.preventFluidInteraction.extra": "防止意外生成的石头卡住飞行器和红石机械。",
+  "carpet.rule.preventRailAutoConnection.name": "阻止铁轨自动连接",
+  "carpet.rule.preventRailAutoConnection.desc": "在铁轨旁放置新铁轨时，原铁轨不会改变状态/形状。",
+  "carpet.rule.preventRailAutoConnection.extra": "方便铺设密集的平行铁轨，防止它们粘连。"
 }
