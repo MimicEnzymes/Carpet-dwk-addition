@@ -14,12 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(FlowableFluid.class)
 public class FlowableFluidMixin {
-    // 【关键修复】
-    // 旧写法: onTick(ServerWorld world, BlockPos pos, FluidState state, CallbackInfo ci)
-    // 新写法: onTick(ServerWorld world, BlockPos pos, BlockState blockState, FluidState state, CallbackInfo ci)
-    // 中间加了一个 BlockState blockState，顺序必须严格匹配游戏底层代码！
-    
-    @Inject(method = "onScheduledTick", at = @At("HEAD"), cancellable = true)
+        @Inject(method = "onScheduledTick", at = @At("HEAD"), cancellable = true)
     private void onTick(ServerWorld world, BlockPos pos, BlockState blockState, FluidState state, CallbackInfo ci) {
         if (DwkSettings.stopFluidFlow) ci.cancel();
     }
